@@ -1,16 +1,21 @@
 <template>
-  <HelloWorld/>
-</template>
+  <div>
+    <h1>Chart.js Example</h1>
+    <HelloWorld/>
 
+  </div>
+  
+</template>
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import HelloWorld from './components/HelloWorld.vue';
 
 export default {
   name: 'App',
   components: {
     HelloWorld
-  }
-}
+  },
+ 
+  };
 </script>
 
 <style>
